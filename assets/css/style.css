@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.ul,li,ol{
+    text-decoration: none;
+    list-style: none;
+}
+
+.container{
+    width: 1440px;
+    margin: 0 auto;
+
+
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Regular-webfont.woff2") format("woff2"),
+         url("../fonts/Poppins-Regular-webfont.woff") format("woff");
+  }
+
+body{
+    font-family: "Poppins";
+}
+
+/*header*/
+
+.wrapper_header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.list_menu{
+    display: flex;
+    align-items: center;
+}
+
+.ml30{
+    margin-left: 30px;
+}
+
+.pt15{
+    padding-top: 15px;
+}
+
+/*section1*/
+
+
+.wrapper_section1{
+height: 800px;
+background-image: url(../img/intro.png);
+display: flex;
+flex-direction: column;
+
+
+}
+
+
+.place_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hight_s1{
+    height: 800px;
+}
+
+.text_32{
+
+font-size: 32px;
+line-height: 45px;
+text-align: center;
+color: #45525B;
+width: 525px;
+height: 90px;
+margin-top: 20px;
+}
+
+.rectangle_sc1{
+    display: flex;
+    align-items:flex-start;
+    width: 64px;
+    height: 64px;
+}
+
+.arrow_rectangle{
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*section2*/
+
+
+.wrapper_section2{
+    height: 486px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.text_14{
+
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+
+.mt8{
+    margin-top: 8px;
+}
+
+.w576{
+    width: 576px;
+    height: 68px;
+}
+
+.beige{
+    color: #FF8A63;
+}
+
+.text_48{
+    font-size: 48px;
+    line-height: 53px;                      
+    color: #45525B  
+}
+
+.left_intro_s2{
+   
+}
+
+.w491{
+    width: 491px;
+    height: 159px;
+}
+
+.text16{
+    font-size: 16px;
+    line-height: 22px;
+    color: #333333;
+
+}
+
+.w561{
+    width: 561px;
+    height: 112px;
+}
+
+.textfake12{
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #6F7278;
+}
+.circle_person{
+   display: flex;
+   align-items: center;
+}
+
+.name_position{
+    margin-left: 8px;
+}
+
+.circle_person::before{
+    content: "";
+    background-image: url(../svg/WOMAN_CIRCLE.svg);
+    background-repeat: no-repeat;
+    display: block;
+    width: 80px;
+    height: 80px;
+}
+
+/*section3*/
+
+.wrapper_section3{
+
+    padding-top: 200px;
+    height: 732px;
+
+}
+
+.text36{
+
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #45525B;
+
+}
+
+.text_sc3{
+    text-align: center;
+}
+
+.w561_2{
+    width: 561px;
+    height: 44px;
+    text-align: center;
+}
