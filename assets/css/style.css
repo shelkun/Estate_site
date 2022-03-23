@@ -32,7 +32,13 @@ a{
 }
 /*header*/
 
+.section1{
+    display: flex;
+    align-items: center;
+}
+
 .wrapper_header{
+
     display: flex;
     justify-content: space-between;
     
@@ -315,6 +321,12 @@ margin-top: 20px;
     margin-right: 32px;
 }
 
+.mr_0{
+    margin-left: 0;
+}
+
+
+/*section4*/
 
 .wrapper_section4{
   
@@ -325,6 +337,8 @@ margin-top: 20px;
     height: 600px;
   
 }
+
+/*section5*/
 
 
 .wrapper_section5{
@@ -340,3 +354,241 @@ margin-top: 20px;
     padding-top: 11px;      
 }
 
+.text_fake_12{
+    font-size: 12px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #6F7278;
+
+}
+
+.text20{
+
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #45525B;
+
+}
+
+.intro_group_sc5{
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.group_sc5{
+    width: 379px;
+    height: 385px;
+}
+
+.text12{
+    font-size: 12px;
+    line-height: 17px;
+    color: #45525B;
+    }
+
+.info_icon_sc5{
+   display: flex;
+   justify-content: space-around;
+   padding-top: 10px;
+   
+    
+}
+
+.beds{
+    display: flex;
+   
+}
+
+.bath{
+    display: flex;
+  
+}
+
+.room{
+    display: flex;
+    
+}
+
+
+.beds::before{
+    content: "";
+    background-image: url(../svg/Bed-Icon.svg);
+    background-repeat: no-repeat;
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+   
+}
+
+.bath::before{
+    content: "";
+    background-image: url(../svg/Bath-Icon.svg);
+    background-repeat: no-repeat;
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+
+}
+
+.room::before{
+    content: "";
+    background-image: url(../svg/door-icon.svg);
+    background-repeat: no-repeat;
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+
+}
+
+.intro_group_sc5_2{
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 21 px;
+}
+
+.arrow_sc5{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.arrow_pic_sc5{
+    margin-left: 4px;
+}
+
+/*section6*/
+
+.wrapper_section6{
+    
+    height: 284px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.arrow_sc6{
+    display: flex;
+    padding-top: 40px;
+
+}
+
+.w368{
+    width: 368px;
+    height: 84px;
+    
+    padding-top: 13px;
+}
+
+.w309{
+    width: 309px;
+    height: 130px;
+}
+
+.circle_group{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 64px;
+}
+
+.circle_section2{
+
+}
+
+.w360{
+    width: 360px;
+    height: 80px;
+}
+
+.circle_person1_1::before{
+    content: "";
+    background-image: url(../svg/WOMAN_CIRCLE.svg);
+    background-repeat: no-repeat;
+    display: block;
+    width: 80px;
+    height: 80px;
+}
+
+.circle_person1_2::before{
+    content: "";
+    background-image: url(../svg/WOMAN_CIRCLE_2.svg);
+    background-repeat: no-repeat;
+    display: block;
+    width: 80px;
+    height: 80px;
+}
+.circle_person1_3::before{
+    content: "";
+    background-image: url(../svg/WHITE_MAN_2.svg);
+    background-repeat: no-repeat;
+    display: block;
+    width: 80px;
+    height: 80px;
+}
+.circle_person2_1::before{
+    content: "";
+    background-image: url(../svg/DARK_MAN_CIRCLE.svg);
+    background-repeat: no-repeat;
+    display: block;
+    width: 80px;
+    height: 80px;
+}
+.circle_person2_2::before{
+    content: "";
+    background-image: url(../svg/WHITE_MAN.svg);
+    background-repeat: no-repeat;
+    display: block;
+    width: 80px;
+    height: 80px;
+}
+.circle_person2_3::before{
+    content: "";
+    background-image: url(../svg/WOMAN_CIRCLE_3.svg);
+    background-repeat: no-repeat;
+    display: block;
+    width: 80px;
+    height: 80px;
+}
+
+.circle_person1_1{
+    display: flex;
+    align-items: center;
+}
+
+.circle_person1_2{
+    display: flex;
+    align-items: center;
+}
+
+.circle_person1_3{
+    display: flex;
+    align-items: center;
+}
+
+.circle_person2_1{
+    display: flex;
+    align-items: center;
+}
+
+.circle_person2_2{
+    display: flex;
+    align-items: center;
+}
+
+.circle_person2_3{
+    display: flex;
+    align-items: center;
+}
